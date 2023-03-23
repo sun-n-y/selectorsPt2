@@ -1,1 +1,6 @@
 /* selectors pt 2:  */
+
+h1 ~ p {
+  font-size: 2rem;
+  color: yellowgreen;
+}
