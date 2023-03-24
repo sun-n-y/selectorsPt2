@@ -1,1 +1,13 @@
 /* selectors pt 2: specificity */
+
+p {
+  color: olive;
+}
+
+.featured {
+  color: orangered;
+}
+
+#special {
+  color: palegreen;
+}
