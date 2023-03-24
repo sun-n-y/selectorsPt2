@@ -1,1 +1,15 @@
-/* selectors pt 2:  */
+/* selectors pt 2: psuedo element  */
+
+p::first-letter {
+  text-transform: uppercase;
+  color: red;
+}
+
+li:first-of-type::first-letter {
+  color: goldenrod;
+}
+
+p::selection {
+  color: white;
+  background-color: black;
+}
